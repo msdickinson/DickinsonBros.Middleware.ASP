@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DickinsonBros.Test" Version="1.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="DickinsonBros.DurableRest.Abstractions" Version="5.0.0" />
+    <PackageReference Include="DickinsonBros.Logger.Abstractions" Version="2.0.0" />
+    <ProjectReference Include="..\DickinsonBros.Middleware.ASP\DickinsonBros.Middleware.ASP.csproj" />
+  </ItemGroup>
+
+</Project>

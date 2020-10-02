@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Middleware.ASP", "DickinsonBros.Middleware.ASP\DickinsonBros.Middleware.ASP.csproj", "{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Library", "1 Library", "{167D7683-B6E6-4349-BF5B-1A79F0105CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Runner", "2 Runner", "{1C31D46A-3D74-4607-B6DC-9BFFF5F16FFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Misc", "9 Misc", "{ED47BA0A-7F90-4440-A26A-DC6757F9B9BC}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		DickinsonBros.Middleware.ASP.runsettings = DickinsonBros.Middleware.ASP.runsettings
+		Scripts\Publish.yml = Scripts\Publish.yml
+		Scripts\Test.yml = Scripts\Test.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Middleware.ASP.Tests", "DickinsonBros.Middleware.ASP.Tests\DickinsonBros.Middleware.ASP.Tests.csproj", "{4C18F490-3130-447A-AD85-A48A674098E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Middleware.ASP.Runner", "DickinsonBros.Middleware.ASP.Runner\DickinsonBros.Middleware.ASP.Runner.csproj", "{68A9249D-5A56-4402-AA59-CDED778D1BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C18F490-3130-447A-AD85-A48A674098E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C18F490-3130-447A-AD85-A48A674098E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C18F490-3130-447A-AD85-A48A674098E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C18F490-3130-447A-AD85-A48A674098E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A9249D-5A56-4402-AA59-CDED778D1BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A9249D-5A56-4402-AA59-CDED778D1BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A9249D-5A56-4402-AA59-CDED778D1BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A9249D-5A56-4402-AA59-CDED778D1BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE5AAF9F-4903-4C0E-9728-6ECBB4A8C80B} = {167D7683-B6E6-4349-BF5B-1A79F0105CE8}
+		{4C18F490-3130-447A-AD85-A48A674098E8} = {167D7683-B6E6-4349-BF5B-1A79F0105CE8}
+		{68A9249D-5A56-4402-AA59-CDED778D1BF1} = {1C31D46A-3D74-4607-B6DC-9BFFF5F16FFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48DCD466-B5E9-40AF-B323-F53EA65CDD77}
+	EndGlobalSection
+EndGlobal

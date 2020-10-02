@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DickinsonBros.Guid" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.DateTime" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.Logger" Version="3.0.0" />
+    <PackageReference Include="DickinsonBros.Stopwatch" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.Telemetry" Version="6.0.0" />
+    <PackageReference Include="DickinsonBros.Redactor" Version="4.0.0" />
+    <PackageReference Include="DickinsonBros.Encryption.Certificate" Version="6.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DickinsonBros.Middleware.ASP\DickinsonBros.Middleware.ASP.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+</Project>
