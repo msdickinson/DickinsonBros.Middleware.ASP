@@ -38,5 +38,8 @@ Features
       - POST https://localhost:5001/Api/Sample
       ElapsedMilliseconds: 190
       CorrelationId: c5bb0105-91c9-444d-98b5-b4a18365eb48
+
+<b>Telemetry</b>
+![Alt text](https://raw.githubusercontent.com/msdickinson/DickinsonBros.Middleware.ASP/master/MiddlewareTelemetry.PNG)
       
 [Sample Runner](https://github.com/msdickinson/DickinsonBros.Middleware.ASP/tree/master/DickinsonBros.Middleware.ASP.Runner)
